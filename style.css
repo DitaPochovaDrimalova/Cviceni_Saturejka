@@ -8,5 +8,63 @@ html {
 h1,
 h2 {
   font-family: 'Playfair Display', serif;
-  background-color:aqua;
+  text-align: center;
+}
+
+.centered {
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  background-color: #FFFFFF;
+  width: 90%;              /* šířka obdélníku */
+  max-width: 1000px;        /* maximální šířka */
+  margin: 50px auto;       /* vycentrování na střed */
+  padding: 30px;           /* vnitřní mezery */
+
+}
+
+.logo {
+width: 400px;
+height: auto;
+margin: 20px;
+display: inline-block;
+}
+
+.obrazky {
+  display: flex;
+  justify-content: center; /* zarovná obrázky na střed */
+  gap: 20px;               /* mezery mezi obrázky */
+}
+
+.obrazky img {
+  width: 300px;
+  height: auto;
+}
+
+
+body {
+  background-color: #FFEFEF;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* dvě sloupce */
+  gap: 10px;                      /* mezery mezi bloky */
+  max-width: 982px;
+  margin: 0 auto;
+}
+
+.blok {
+ 
+  padding: 20px;
+  text-align: left;
+  border-radius: 8px;
+  font-size: 16px;
 }
